@@ -1,0 +1,7 @@
+setup.py
+nextperm/__init__.py
+nextperm/core.py
+nextperm.egg-info/PKG-INFO
+nextperm.egg-info/SOURCES.txt
+nextperm.egg-info/dependency_links.txt
+nextperm.egg-info/top_level.txt

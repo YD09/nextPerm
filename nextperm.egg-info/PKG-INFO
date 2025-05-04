@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: nextperm
+Version: 0.1.0
+Summary: A Python library for next permutation and combinatorial utilities inspired by C++ STL and Java Collections.
+Home-page: https://github.com/YD09/nextPerm
+Author: Yash Dhake ,Sayali 
+Author-email: dhakeyash123@gmail.com , varkhadesayali@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# nextperm
+
+A Python library inspired by C++ STL and Java Collections that provides utilities for next permutation, combinations, sorting helpers, and more.
+
+## ðŸš€ Features
+
+- `next_permutation`, `prev_permutation`
+- `rotate_left`, `rotate_right`
+- `is_sorted`, `is_sorted_until`
+- `lower_bound`, `upper_bound`
+- `nth_permutation`, `count_permutations`
+- `nCr`, `nPr`, `factorial`
+- `shuffle`, `swap`, `reverse`
+
+## ðŸ§ª Example Usage
+
+```python
+from nextperm import next_permutation, nth_permutation
+
+print(next_permutation([1, 2, 3]))  # [1, 3, 2]
+print(nth_permutation([1, 2, 3], 4))  # [2, 3, 1]
